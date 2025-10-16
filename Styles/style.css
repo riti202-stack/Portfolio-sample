@@ -76,7 +76,7 @@ img{
     
 }
 .banner-image{
-    background-image: url(../portfolio-resources/images/header_bg.png);
+    background-image: url(images/header_bg.png);
     background-repeat: no-repeat;
     margin-right:100px ;
     background-size: contain;
@@ -187,8 +187,10 @@ textarea{
     width: 400px;
     height:100px;
 }
-input::placeholder{
+.field::placeholder{
     font-size: 12px;
+    padding:10px,10px,10px;
+
 }
 .field:hover{
     border-color:blue;
