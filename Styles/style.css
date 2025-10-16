@@ -144,6 +144,7 @@ img{
     width:267px;
     height:350px;
     padding:20px 20px;
+
     
     
     
@@ -153,17 +154,46 @@ img{
     
     
 }
-.resume-head{
-    text-align: center;
-}
+
 .resume{
     display:flex;
    justify-content: space-evenly;
+   text-align: left;
 }
 .CV,button{
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
+
+
+.footer{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: #FFF8F3;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.field{
+    border-radius: 5px;
+    padding:2px,5px,2px;
+    width:200px;
+    height:30px;
+    border-color: none;
+    
+
+}
+textarea{
+    width: 400px;
+    height:100px;
+}
+input::placeholder{
+    font-size: 12px;
+}
+.field:hover{
+    border-color:blue;
+}
+
     
    
 
